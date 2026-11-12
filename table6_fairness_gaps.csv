@@ -1,0 +1,61 @@
+Window,Model,Comparison,Metric,Gap,95% CI,CI excludes 0
+ENROLL,Logistic regression,Male − Female,AUC,-0.045,"[-0.107, 0.012]",False
+ENROLL,Logistic regression,Male − Female,TPR (recall),0.359,"[0.275, 0.447]",True
+ENROLL,Logistic regression,Male − Female,FPR,0.267,"[0.197, 0.339]",True
+ENROLL,Logistic regression,Male − Female,Flag rate,0.4,"[0.346, 0.457]",True
+ENROLL,Logistic regression,Male − Female,Calib-in-the-large (pred − obs),-0.023,"[-0.074, 0.029]",False
+ENROLL,Logistic regression,No scholarship − Scholarship,AUC,0.058,"[-0.041, 0.171]",False
+ENROLL,Logistic regression,No scholarship − Scholarship,TPR (recall),0.552,"[0.458, 0.632]",True
+ENROLL,Logistic regression,No scholarship − Scholarship,FPR,0.212,"[0.170, 0.251]",True
+ENROLL,Logistic regression,No scholarship − Scholarship,Flag rate,0.396,"[0.360, 0.431]",True
+ENROLL,Logistic regression,No scholarship − Scholarship,Calib-in-the-large (pred − obs),-0.014,"[-0.061, 0.036]",False
+ENROLL,Logistic regression,25+ − ≤20,AUC,-0.05,"[-0.122, 0.025]",False
+ENROLL,Logistic regression,25+ − ≤20,TPR (recall),0.473,"[0.388, 0.567]",True
+ENROLL,Logistic regression,25+ − ≤20,FPR,0.387,"[0.284, 0.490]",True
+ENROLL,Logistic regression,25+ − ≤20,Flag rate,0.535,"[0.473, 0.596]",True
+ENROLL,Logistic regression,25+ − ≤20,Calib-in-the-large (pred − obs),-0.053,"[-0.108, 0.001]",False
+ENROLL,XGBoost,Male − Female,AUC,-0.036,"[-0.096, 0.023]",False
+ENROLL,XGBoost,Male − Female,TPR (recall),0.269,"[0.180, 0.357]",True
+ENROLL,XGBoost,Male − Female,FPR,0.209,"[0.139, 0.290]",True
+ENROLL,XGBoost,Male − Female,Flag rate,0.331,"[0.273, 0.391]",True
+ENROLL,XGBoost,Male − Female,Calib-in-the-large (pred − obs),-0.03,"[-0.083, 0.023]",False
+ENROLL,XGBoost,No scholarship − Scholarship,AUC,0.058,"[-0.046, 0.168]",False
+ENROLL,XGBoost,No scholarship − Scholarship,TPR (recall),0.489,"[0.368, 0.595]",True
+ENROLL,XGBoost,No scholarship − Scholarship,FPR,0.214,"[0.175, 0.254]",True
+ENROLL,XGBoost,No scholarship − Scholarship,Flag rate,0.387,"[0.349, 0.425]",True
+ENROLL,XGBoost,No scholarship − Scholarship,Calib-in-the-large (pred − obs),-0.018,"[-0.066, 0.028]",False
+ENROLL,XGBoost,25+ − ≤20,AUC,-0.038,"[-0.111, 0.031]",False
+ENROLL,XGBoost,25+ − ≤20,TPR (recall),0.557,"[0.465, 0.646]",True
+ENROLL,XGBoost,25+ − ≤20,FPR,0.446,"[0.341, 0.549]",True
+ENROLL,XGBoost,25+ − ≤20,Flag rate,0.597,"[0.535, 0.657]",True
+ENROLL,XGBoost,25+ − ≤20,Calib-in-the-large (pred − obs),-0.004,"[-0.064, 0.053]",False
+SEM1,Logistic regression,Male − Female,AUC,0.02,"[-0.017, 0.058]",False
+SEM1,Logistic regression,Male − Female,TPR (recall),0.128,"[0.046, 0.213]",True
+SEM1,Logistic regression,Male − Female,FPR,0.057,"[0.018, 0.097]",True
+SEM1,Logistic regression,Male − Female,Flag rate,0.262,"[0.205, 0.322]",True
+SEM1,Logistic regression,Male − Female,Calib-in-the-large (pred − obs),-0.005,"[-0.042, 0.033]",False
+SEM1,Logistic regression,No scholarship − Scholarship,AUC,0.176,"[0.077, 0.283]",True
+SEM1,Logistic regression,No scholarship − Scholarship,TPR (recall),0.423,"[0.255, 0.587]",True
+SEM1,Logistic regression,No scholarship − Scholarship,FPR,0.035,"[0.014, 0.057]",True
+SEM1,Logistic regression,No scholarship − Scholarship,Flag rate,0.339,"[0.297, 0.380]",True
+SEM1,Logistic regression,No scholarship − Scholarship,Calib-in-the-large (pred − obs),-0.015,"[-0.050, 0.025]",False
+SEM1,Logistic regression,25+ − ≤20,AUC,0.071,"[0.031, 0.115]",True
+SEM1,Logistic regression,25+ − ≤20,TPR (recall),0.27,"[0.178, 0.360]",True
+SEM1,Logistic regression,25+ − ≤20,FPR,0.048,"[0.005, 0.100]",True
+SEM1,Logistic regression,25+ − ≤20,Flag rate,0.402,"[0.342, 0.465]",True
+SEM1,Logistic regression,25+ − ≤20,Calib-in-the-large (pred − obs),-0.007,"[-0.048, 0.033]",False
+SEM1,XGBoost,Male − Female,AUC,0.025,"[-0.012, 0.061]",False
+SEM1,XGBoost,Male − Female,TPR (recall),0.143,"[0.059, 0.222]",True
+SEM1,XGBoost,Male − Female,FPR,0.063,"[0.023, 0.105]",True
+SEM1,XGBoost,Male − Female,Flag rate,0.274,"[0.212, 0.331]",True
+SEM1,XGBoost,Male − Female,Calib-in-the-large (pred − obs),0.004,"[-0.031, 0.045]",False
+SEM1,XGBoost,No scholarship − Scholarship,AUC,0.176,"[0.076, 0.296]",True
+SEM1,XGBoost,No scholarship − Scholarship,TPR (recall),0.4,"[0.226, 0.562]",True
+SEM1,XGBoost,No scholarship − Scholarship,FPR,0.034,"[0.017, 0.054]",True
+SEM1,XGBoost,No scholarship − Scholarship,Flag rate,0.339,"[0.298, 0.380]",True
+SEM1,XGBoost,No scholarship − Scholarship,Calib-in-the-large (pred − obs),-0.018,"[-0.059, 0.021]",False
+SEM1,XGBoost,25+ − ≤20,AUC,0.075,"[0.032, 0.118]",True
+SEM1,XGBoost,25+ − ≤20,TPR (recall),0.304,"[0.210, 0.390]",True
+SEM1,XGBoost,25+ − ≤20,FPR,0.038,"[-0.005, 0.092]",False
+SEM1,XGBoost,25+ − ≤20,Flag rate,0.416,"[0.352, 0.480]",True
+SEM1,XGBoost,25+ − ≤20,Calib-in-the-large (pred − obs),0.001,"[-0.039, 0.043]",False

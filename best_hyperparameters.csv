@@ -1,0 +1,5 @@
+Window,Model,clf__C,clf__learning_rate,clf__max_depth,clf__n_estimators,clf__subsample
+ENROLL,Logistic regression,0.1,,,,
+ENROLL,XGBoost,,0.03,3.0,400.0,0.8
+SEM1,Logistic regression,1.0,,,,
+SEM1,XGBoost,,0.1,2.0,200.0,1.0

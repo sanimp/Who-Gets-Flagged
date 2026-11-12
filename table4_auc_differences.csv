@@ -1,0 +1,5 @@
+Window,AUC difference,95% CI
+ENROLL,0.002,"[-0.009, 0.013]"
+SEM1,0.002,"[-0.004, 0.008]"
+SEM1 − ENROLL (Logistic regression),0.108,"[0.090, 0.129]"
+SEM1 − ENROLL (XGBoost),0.107,"[0.086, 0.129]"
